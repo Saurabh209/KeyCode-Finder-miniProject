@@ -45,3 +45,33 @@ body{
     width: 300px;
 
 }
+
+.afterContainer{
+    padding-top: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    height: 800px;
+    min-width: 350px;
+    width:900px;
+    border: 1px solid black;
+}
+.upperContainer{
+    border: 1px solid rgb(86, 83, 83);
+    text-align: center;
+    margin-bottom: 20px;
+}
+.code{
+    font-size: 30px;
+    text-align: center;
+}
+.lowerContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.data{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
