@@ -1,1 +1,1 @@
-# KeyCode-Finder-miniProject
+# JavaScript KeyCode-Finder-miniProject
