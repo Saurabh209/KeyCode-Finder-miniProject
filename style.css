@@ -53,7 +53,9 @@ body{
     padding-top: 20px;
     border-radius: 20px;
     margin-top: 20px;
-    height: 800px;
+    height: 600px;
+    overflow: hidden;
+    overflow::scroll ;
     min-width: 350px;
     width:900px;
     border: 8px solid rgb(120, 111, 111);
@@ -113,7 +115,7 @@ h2{
 }
 .card-info{
     /* border: 1px solid black; */
-    height: 64px;
+    height: 65px;
     background-color: rgb(12, 221, 151);
 
 }
