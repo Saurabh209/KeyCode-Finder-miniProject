@@ -3,6 +3,7 @@
     padding: 0px;
 }
 body{
+    font: proxima-nova, Arial, sans-serif;
     background-clip: content-box;
     display: flex;
     justify-content: center;
@@ -14,7 +15,7 @@ body{
     
 
 }
-.container{
+/* .container{
 
     transition-property: all;
     transition-timing-function: ease-in-out;
@@ -32,7 +33,7 @@ body{
     max-width: 1100px;
     border: 1px solid rgb(0, 170, 255);
     border-radius: 40px;
-}
+} */
 .container:hover{
     box-shadow: 8px 8px 32px black;
 }
@@ -67,7 +68,7 @@ body{
 }
 h2{
     font-size: 30px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:proxima-nova, Arial, sans-serif;
 }
 .code{
     font-size: 30px;
@@ -91,7 +92,7 @@ h2{
 }
 .data:hover{
     transform: scale(1.05);
-    box-shadow: 8px 8px 32px black;
+    box-shadow: 6px 6px 32px rgba(0, 0, 0, 0.503);
 }
 
 .title{
@@ -101,9 +102,10 @@ h2{
     justify-content: center;
     align-items: center;
     height: 35px;
-    color: rgb(41, 41, 41);
+    font-size: 20px;
+    color: rgb(0, 0, 0);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: rgb(19, 232, 3);
+    background-color:rgb(23,78,207) ;
     /* border: 1px solid black; */
 }
 .variable{
@@ -116,6 +118,6 @@ h2{
 .card-info{
     /* border: 1px solid black; */
     height: 65px;
-    background-color: rgb(12, 221, 151);
+    background-color: rgb(235,236,237);
 
 }

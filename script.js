@@ -1,8 +1,7 @@
 
 
 function onpress(e){
-    document.querySelector(".code").innerHTML=`KeyPressed: ${e.key} `;
-    document.querySelector(".upperContainer").innerHTML="";
+    const newCode=document.querySelector(".upperContainer").innerHTML=`<h2>KeyPressed: ${e.key} </h2><br><p>${e.keyCode}`;
     console.log(e.target.value);
 
 }
