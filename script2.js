@@ -1,7 +1,7 @@
 function onpress(e){
     const data=document.querySelector(".afterContainer");
     data.innerHTML=`<div class="upperContainer">
-    <h2>KeyPressed: ${e.key} </h2><br><h1 style="font-size:90px">${e.which}</h1><br><h5> The keyCode
+    <h2>KeyPressed: ${e.key} </h2><br><h1 style="font-size:150px">${e.which}</h1><br><h5> The keyCode
   </div>
   <hr><br><br>
   <div class="lowerContainer">
@@ -61,4 +61,4 @@ function onpress(e){
 `
 };
 
-window.addEventListener('keypress',onpress);
+window.addEventListener('keydown',onpress);
