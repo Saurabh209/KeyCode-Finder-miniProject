@@ -76,6 +76,9 @@ h2{
 
 }
 .data{
+    display: flex;
+    flex-direction: column;
+    flex-shrink:unset;
     transition: all;
     transition-duration: .4s;
     background-color: rgb(223, 220, 215);

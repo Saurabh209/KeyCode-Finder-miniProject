@@ -57,6 +57,48 @@ function onpress(e){
 
       </div>
     </div>
+    <div class="data">
+      <div class="title">
+        <p>event.location</p>
+      </div>
+      <div class="variable">
+        <div class="variable-data" id="event-location">
+          <p>${e.location}</p>
+        </div>
+
+      </div>
+      <div class="card-info">
+
+      </div>
+    </div>
+    <div class="data">
+      <div class="title">
+        <p>event.location</p>
+      </div>
+      <div class="variable">
+        <div class="variable-data" id="event-location">
+          <p>${e.location}</p>
+        </div>
+
+      </div>
+      <div class="card-info">
+
+      </div>
+    </div>
+    <div class="data">
+      <div class="title">
+        <p>event.location</p>
+      </div>
+      <div class="variable">
+        <div class="variable-data" id="event-location">
+          <p>${e.location}</p>
+        </div>
+
+      </div>
+      <div class="card-info">
+
+      </div>
+    </div>
   </div>  
 `;
 
