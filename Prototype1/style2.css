@@ -3,6 +3,7 @@
     padding: 0px;
 }
 body{
+    visibility: ;
     font-family: proxima-nova, Arial, sans-serif;
     background-clip: content-box;
     display: flex;
