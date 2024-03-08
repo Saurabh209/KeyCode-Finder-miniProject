@@ -45,11 +45,11 @@ function onpress(e){
     </div>
     <div class="data">
       <div class="title">
-        <p>box4</p>
+        <p>event.location</p>
       </div>
       <div class="variable">
         <div class="variable-data">
-          <p>---</p>
+          <p>${e.location}</p>
         </div>
 
       </div>
