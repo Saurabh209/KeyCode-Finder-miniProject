@@ -1,12 +1,13 @@
+function onclick(e){
+    const container_data = document.querySelector(".container");
+    if(e.location=="0"){
+        container_data.innerHTML="<p>character</p>";
+    }else if(e.location=="3"){
+        container_data.innerHTML="<p>numpad</p>";
+    }
 
-function onpress(e){
-    const viewContainer = document.querySelector(".afterContainer");
-    viewContainer.className=".afterContainerVisible";
+}
 
-    const target=document.querySelector(".before");
-    target.classList="hidden";
-    console.log(e.key,e.keyCode,e.location);
-   
- };
 
-window.addEventListener('keydown',onpress);
+
+window.addEventListener('keypress',onclick);

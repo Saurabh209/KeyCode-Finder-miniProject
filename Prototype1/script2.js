@@ -1,8 +1,3 @@
-function eventkey(){
-  
-}
-
-
 function onpress(e){
     const data=document.querySelector(".afterContainer");
     data.innerHTML=`<div class="upperContainer">
@@ -41,7 +36,7 @@ function onpress(e){
       </div>
       <div class="variable" id="more">
         <div class="variable-data">
-          <P>---</P>
+          <P>${e.keyCode}</P>
         </div>
       </div>
       <div class="card-info">
@@ -53,7 +48,7 @@ function onpress(e){
         <p>event.location</p>
       </div>
       <div class="variable">
-        <div class="variable-data">
+        <div class="variable-data" id="event-location">
           <p>${e.location}</p>
         </div>
 
@@ -64,8 +59,27 @@ function onpress(e){
     </div>
   </div>  
 `;
-eventkey();
+
+if(e.location=="0"){
+  const variabledata=document.querySelector("#event-location");
+  variabledata.innerHTML="<p>General Keys</p>";
+  console.log("character");
+
+}else if(e.location=="1"){
+  const variabledata=document.querySelector("#event-location");
+  variabledata.innerHTML="<p>Left Side keys</p>";
+  console.log("numbers");
+}
+else if(e.location=="3"){
+  const variabledata=document.querySelector("#event-location");
+  variabledata.innerHTML="<p>NumPad</p>";
+  console.log("numpad");
+  
+}else if(e.location=="2"){
+  const variabledata=document.querySelector("#event-location");
+  variabledata.innerHTML="<p> Right Side Keys</p>";
+  console.log("numbers");
+}
 
 };
-
-window.addEventListener('keydown',onpress);
+const pressedKey= window.addEventListener('keydown',onpress);

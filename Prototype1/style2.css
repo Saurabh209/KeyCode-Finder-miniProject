@@ -3,7 +3,7 @@
     padding: 0px;
 }
 body{
-    visibility: ;
+    background-color: rgb(243,244,246);
     font-family: proxima-nova, Arial, sans-serif;
     background-clip: content-box;
     display: flex;
@@ -40,7 +40,7 @@ body{
 .afterContainer{
     text-align: center;
     /* overflow: scroll; */
-    /* background-color: rgb(187, 187, 187); */
+    background-color: rgb(243,244,246);
     padding-top: 20px;
     border-radius: 40px;
     margin-top: 20px;
