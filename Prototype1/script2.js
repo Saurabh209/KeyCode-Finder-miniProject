@@ -1,3 +1,8 @@
+function eventkey(){
+  
+}
+
+
 function onpress(e){
     const data=document.querySelector(".afterContainer");
     data.innerHTML=`<div class="upperContainer">
@@ -58,7 +63,9 @@ function onpress(e){
       </div>
     </div>
   </div>  
-`
+`;
+eventkey();
+
 };
 
 window.addEventListener('keydown',onpress);
