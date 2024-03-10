@@ -3,7 +3,7 @@
     padding: 0px;
 }
 body{
-    background-color: rgb(243,244,246);
+    background-color: rgb(204, 204, 204);
     font-family: proxima-nova, Arial, sans-serif;
     background-clip: content-box;
     display: flex;
@@ -40,7 +40,7 @@ body{
 .afterContainer{
     text-align: center;
     /* overflow: scroll; */
-    background-color: rgb(243,244,246);
+    background-color: rgb(204, 204, 204);
     padding-top: 20px;
     border-radius: 40px;
     margin-top: 20px;
@@ -129,4 +129,14 @@ h2{
     height: 65px;
     background-color: rgb(235,236,237);
 
+}
+#history{
+    width:650px;
+}
+.history-table{
+    border: 1px solic black;
+}
+#meta-data{
+    height: 165px;
+    font-size:  13px;
 }
