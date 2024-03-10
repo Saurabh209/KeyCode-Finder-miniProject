@@ -1,3 +1,11 @@
+function space(e){
+  if(e.key==" "){
+    document.querySelector("eventKey").innerHTML=`<P>Space</P>`;
+
+  }
+}
+
+
 function onpress(e){
     const data=document.querySelector(".afterContainer");
     data.innerHTML=`<div class="upperContainer">
@@ -124,4 +132,5 @@ else if(e.location=="3"){
 }
 
 };
+
 const pressedKey= window.addEventListener('keydown',onpress);
