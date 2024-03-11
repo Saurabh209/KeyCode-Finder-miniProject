@@ -2,7 +2,7 @@ function history(){[]
   const dataHistory=document.querySelector("#history-data");
   const allhistory=document.createElement('p');
   allhistory.innerText="history added";
-  dataHistory.append("allhistory");
+  dataHistory.append("Comming soon.....");
 }
 
 
