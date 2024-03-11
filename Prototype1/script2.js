@@ -1,3 +1,9 @@
+function history(){[]
+  const dataHistory=document.querySelector("#history");
+  dataHistory.history.innerHtml.add="<div>Hii</div>"
+}
+
+
 function space(e){
   if(e.key==" "){
     document.querySelector("eventKey").innerHTML=`<P>Space</P>`;
@@ -124,7 +130,7 @@ else if(e.location=="3"){
   variabledata.innerHTML="<p> Right Side Keys</p>";
   console.log("numbers");
 }
-
+history();
 };
 
 const pressedKey= window.addEventListener('keydown',onpress);
