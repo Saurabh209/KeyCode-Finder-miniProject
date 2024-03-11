@@ -1,6 +1,8 @@
 function history(){[]
-  const dataHistory=document.querySelector("#history");
-  dataHistory.history.innerHtml.add="<div>Hii</div>"
+  const dataHistory=document.querySelector("#history-data");
+  const allhistory=document.createElement('p');
+  allhistory.innerText="history added";
+  dataHistory.append("allhistory");
 }
 
 
@@ -96,15 +98,7 @@ function onpress(e){
       <div class="title">
         <p>History</p>
       </div>
-      <div class="variable">
-      <table>
-      <tr>
-          <th>Key Pressed |</th>
-          <th>e.Key |</th>
-          <th>e.Code |</th>
-          <th>e.location |</th>
-      </tr>
-      </table>
+      <div class="variable" id="history-data">
       </div>
     </div>
   </div>  
