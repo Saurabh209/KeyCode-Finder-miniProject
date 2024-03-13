@@ -1,1 +1,0 @@
-This is the final project which follow the clean javascript code.
