@@ -1,4 +1,4 @@
-# Project Name: Showing Keypress on Screen
+# Project Name: KeyCode Finder Mini Project
 
 ## Table of Contents
 
@@ -12,11 +12,12 @@
 
 ## Introduction
 
-The "Showing Keypress on Screen" project is a simple application that captures and displays the key presses made by the user on the screen. It provides a visual representation of the keys pressed, allowing users to see their input in real-time. This project can be useful for various purposes, such as educational demonstrations, accessibility enhancements, or simply for fun.
+The "KeyCode Finder" project is a simple application that captures and displays the keyCodes, keylocations, keyValues etc by pressing keys on keyboard by the user. It provides a visual representation , allowing user to easily get keycodes that help in DOM handeling. This project can be useful for various purposes, such as educational demonstrations, accessibility enhancements, or simply for fun.
 
 ## Features
 
 - Real-time display of key presses on the screen.
+- Display keyCode/keylocation/keyvalue etc.
 - Support for displaying alphanumeric keys, function keys, and special keys (e.g., Enter, Shift, Ctrl).
 - Customizable display options, such as font size, color, and position.
 - Lightweight and easy-to-use interface.
@@ -52,7 +53,7 @@ To install and run the "Showing Keypress on Screen" project, follow these steps:
 
 ## Usage
 
-Once the project is installed and running, you can start typing on your keyboard, and the application will display the keys you press on the screen in real-time. You can customize the display options by modifying the CSS styles in the `styles.css` file. For example, you can change the font size, color, or position of the displayed text to suit your preferences.
+Once the project is installed and running, you can start typing on your keyboard, and the application will display features on the screen in real-time. You can customize the display options by modifying the CSS styles in the `styles.css` file. For example, you can change the font size, color, or position of the displayed text to suit your preferences.
 
 ## Contributing
 
@@ -64,4 +65,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-By creating a "Showing Keypress on Screen" application, users can visually see their keyboard input in real-time, which can be both entertaining and practical for various purposes. Whether used for educational demonstrations, accessibility enhancements, or simply for fun, this project provides a simple yet effective solution for displaying key presses on the screen.
+By creating a "KeyCode Finder" application, users can visually see their keyboard input in real-time, which can be both entertaining and practical for various purposes. Whether used for educational demonstrations, accessibility enhancements, or simply for fun, this project provides a simple yet effective solution for displaying key presses on the screen.
