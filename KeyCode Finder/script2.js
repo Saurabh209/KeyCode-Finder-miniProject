@@ -33,7 +33,7 @@ function onpress(e){
     text-fill-color: transparent;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: textclip 2s linear infinite;
+    animation: textclip 4s linear infinite;
     ">${e.which}</h1><br><h5> The keyCode</h5>
   </div>
   <hr><br><br>

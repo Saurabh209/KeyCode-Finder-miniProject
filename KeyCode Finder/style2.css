@@ -114,14 +114,26 @@ h2 {
   /* border: 1px solid rgb(255, 255, 255); */
 }
 .data:hover {
-  filter: blur(10);
+  /* background-image: linear-gradient(
+    -225deg,
+    #ffde0b 0%,
+    #029aff 29%,
+    #13b0ff 67%,
+    #ddff00 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #000000;
+  background-clip: text; */
+  /* text-fill-color: transparent;
+ /* -webkit-background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
+  animation: textclip 2s linear infinite; 
   transform: scale(1.05);
   box-shadow: 6px 6px 32px rgba(0, 0, 0, 0.503);
 }
 
-.data:hover .lowerContainer{
-  filter: blur(10);
-}
 
 .title {
   /* border-radius: 3px; */
