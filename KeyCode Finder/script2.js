@@ -17,7 +17,24 @@ function space(e){
 function onpress(e){
     const data=document.querySelector(".afterContainer");
     data.innerHTML=`<div class="upperContainer">
-    <h2>KeyPressed: ${(e.key==" ")? 'Space':e.key} </h2><br><h1 style="font-size:150px">${e.which}</h1><br><h5> The keyCode</h5>
+    <h2>KeyPressed: ${(e.key==" ")? 'Space':e.key} </h2><br><h1 style="font-size:150px;
+    background-image: linear-gradient(
+      -225deg,
+      #ffde0b 0%,
+      #10507a 29%,
+      #ff1361 67%,
+      #95ff00 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    ">${e.which}</h1><br><h5> The keyCode</h5>
   </div>
   <hr><br><br>
   <div class="lowerContainer">

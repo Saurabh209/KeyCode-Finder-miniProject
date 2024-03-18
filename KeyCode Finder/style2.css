@@ -114,8 +114,13 @@ h2 {
   /* border: 1px solid rgb(255, 255, 255); */
 }
 .data:hover {
+  filter: blur(10);
   transform: scale(1.05);
   box-shadow: 6px 6px 32px rgba(0, 0, 0, 0.503);
+}
+
+.data:hover .lowerContainer{
+  filter: blur(10);
 }
 
 .title {
@@ -126,10 +131,10 @@ h2 {
   align-items: center;
   height: 35px;
   font-size: 20px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  background-color: rgb(23, 78, 207);
+  background-color: rgb(255, 215, 14);
   /* border: 1px solid black; */
 }
 .variable {
