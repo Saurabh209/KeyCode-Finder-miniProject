@@ -2,6 +2,11 @@
   margin: 0px;
   padding: 0px;
 }
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> e66b37d7db03243e43db702a2eda9a7c9044cabc
 .animate-character {
   text-transform: uppercase;
   text-align: center;
@@ -178,3 +183,41 @@ h2 {
   height: 165px;
   font-size: 12px;
 }
+<<<<<<< HEAD
+
+
+.lowerContainer:hover {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+  
+  .data {
+    transition: all 0.3s ease; 
+  }
+  
+  .data:hover ~ .data {
+    filter: blur(5px);
+  }
+  
+  
+  .aftercontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .data {
+    transition: all 0.3s ease;
+    filter: blur(5px);
+  }
+  
+  .data:hover {
+    filter: none; 
+  }
+}
+=======
+>>>>>>> e66b37d7db03243e43db702a2eda9a7c9044cabc
