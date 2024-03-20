@@ -1,59 +1,18 @@
-function history() {
-  const dataHistory = document.querySelector("#history-data");
-  const allhistory = document.createElement('p');
-  allhistory.innerText = "history added";
-  dataHistory.appendChild(allhistory);
+function history(){[]
+  const dataHistory=document.querySelector("#history-data");
+  const allhistory=document.createElement('p');
+  allhistory.innerText="history added";
+  dataHistory.append("Comming soon.....");
 }
 
-/*
-let keyHistory = []; // Array to store the history of pressed keys
 
-function clearHistory() {
-  keyHistory = []; // Reset the key history array
-  history(); // Update the displayed history
-}
+function space(e){
+  if(e.key==" "){
+    document.querySelector("eventKey").innerHTML=`<P>Space</P>`;
 
-function history() {
-  const dataHistory = document.querySelector("#history-data");
-  dataHistory.innerHTML = ""; // Clear the previous history
-
-  if (keyHistory.length === 0) {
-    dataHistory.innerHTML = "No keys pressed yet.";
-  } else {
-    const historyList = document.createElement("ul");
-
-    keyHistory.forEach((key, index) => {
-      const historyItem = document.createElement("li");
-      historyItem.textContent = `${index + 1}. ${key}`;
-      historyList.appendChild(historyItem);
-    });
-
-    dataHistory.appendChild(historyList);
   }
 }
 
-function onpress(e) {
-  // ... (existing code for onpress function)
-
-  // Add the pressed key to the history
-  keyHistory.push(e.key);
-
-  // Call the history function to update the displayed history
-  history();
-}
-
-// Call clearHistory() when the page loads or when a new event occurs
-window.addEventListener('load', clearHistory);
-// Add any other event listeners or conditions where you want to clear the history
-
-*/
-
-function space(e) {
-  if (e.key === " ") {
-    const eventKeyElement = document.querySelector("#eventKey");
-    eventKeyElement.innerHTML = `<P>Space</P>`;
-  }
-}
 
 function onpress(e){
     const data=document.querySelector(".afterContainer");
@@ -162,7 +121,6 @@ function onpress(e){
   </div>  
 `;
 
-
 if(e.location=="0"){
   const variabledata=document.querySelector("#event-location");
   variabledata.innerHTML="<p>General Keys</p>";
@@ -183,7 +141,6 @@ else if(e.location=="3"){
   variabledata.innerHTML="<p> Right Side Keys</p>";
   console.log("numbers");
 }
-
 history();
 };
 
