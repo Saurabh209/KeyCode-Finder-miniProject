@@ -192,9 +192,9 @@ h2 {
     transition: all 0.3s ease; 
   }
   
-  .data:hover ~ .data {
+  /* .data:hover ~ .data {
     filter: blur(5px);
-  }
+  } */
   
   
   .aftercontainer {
@@ -204,10 +204,10 @@ h2 {
     height: 100vh;
   }
   
-  .data {
+  /* .data {
     transition: all 0.3s ease;
     filter: blur(5px);
-  }
+  } */
   
   .data:hover {
     filter: none; 
