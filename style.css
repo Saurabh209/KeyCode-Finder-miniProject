@@ -168,7 +168,7 @@ h2 {
   height: 65px;
   background-color: rgb(235, 236, 237);
 }
-#history {
+.history {
   width: 650px;
 }
 .history-table {
@@ -213,4 +213,7 @@ h2 {
     filter: none; 
   }
 }
+
+
+
 

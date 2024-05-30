@@ -1,9 +1,17 @@
-function history(){[]
-  const dataHistory=document.querySelector("#history-data");
-  const allhistory=document.createElement('p');
-  allhistory.innerText="history added";
-  dataHistory.append("Comming soon.....");
-}
+
+const historyArray = [];
+
+let data;
+
+// function history(e){
+//   const dataHistory=document.querySelector("#history-data");
+//   const allhistory=document.createElement('p');
+//   allhistory.innerText="history added";
+//   dataHistory.append(historyArray);
+//   console.log("running");
+       
+
+// }
 
 
 function space(e){
@@ -15,7 +23,8 @@ function space(e){
 
 
 function onpress(e){
-    const data=document.querySelector(".afterContainer");
+  e.preventDefault();
+    data=document.querySelector(".afterContainer");
     data.innerHTML=`<div class="upperContainer">
     <h2>KeyPressed: ${(e.key==" ")? 'Space':e.key} </h2><br><h1 style="font-size:150px;
     background-image: linear-gradient(
@@ -111,37 +120,41 @@ function onpress(e){
         
       </div>
     </div>
-    <div class="data" id="history">
-      <div class="title">
-        <p>History</p>
+     <div class="data history">
+        <div class="title">
+          <p>History</p>
+        </div>
+        <div class="variable">
+            <ul class="history-data">
+            </ul>
+        </div>
       </div>
-      <div class="variable" id="history-data">
-      </div>
-    </div>
+   
   </div>  
 `;
+
+historyArray.push(e.key);
+console.log(historyArray);
+
+
 
 if(e.location=="0"){
   const variabledata=document.querySelector("#event-location");
   variabledata.innerHTML="<p>General Keys</p>";
-  console.log("character");
 
 }else if(e.location=="1"){
   const variabledata=document.querySelector("#event-location");
   variabledata.innerHTML="<p>Left Side keys</p>";
-  console.log("numbers");
 }
 else if(e.location=="3"){
   const variabledata=document.querySelector("#event-location");
   variabledata.innerHTML="<p>NumPad</p>";
-  console.log("numpad");
   
 }else if(e.location=="2"){
   const variabledata=document.querySelector("#event-location");
   variabledata.innerHTML="<p> Right Side Keys</p>";
-  console.log("numbers");
 }
-history();
+// history(e);
 };
 
 const pressedKey= window.addEventListener('keydown',onpress);
