@@ -140,7 +140,7 @@ dataHistory.append(title);
 
 const variable = document.createElement('div');
 variable.classList.add('variable');
-const ul = document.createElement('ul');
+const ul = document.createElement('div');
 ul.classList.add('history-data');
 variable.append(ul);
 dataHistory.append(variable);
@@ -150,10 +150,14 @@ lowerContainer.append(dataHistory);
 
 
 
+const historydata = document.querySelector('.history-data');
 
 historyArray.forEach(i=>{
   console.log(i);
-  var item = document.createElement('div')
+  var item = document.createElement('div');
+  item.classList.add('item');
+  item.innerHTML=`${i}`;
+  historydata.append(item);
 });
 
 

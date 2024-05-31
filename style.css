@@ -214,6 +214,16 @@ h2 {
   }
 }
 
+.history-data{
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
 
+.item{
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+}
 
 
