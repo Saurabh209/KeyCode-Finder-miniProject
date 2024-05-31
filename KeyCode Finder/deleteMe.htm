@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Array Elements</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    
+    #output {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Array Elements</h1>
+  <div id="output"></div>
+
+  <script>
+    // Array of elements
+    const myArray = ['Apple', 'Banana', 'Cherry', 'Durian', 'Elderberry'];
+
+    // Function to print array elements
+    function printArrayElements() {
+      const outputDiv = document.getElementById('output');
+      outputDiv.innerHTML = '';
+
+      for (let i = 0; i < myArray.length; i++) {
+        const element = document.createElement('p');
+        element.textContent = myArray[i];
+        outputDiv.appendChild(element);
+      }
+    }
+
+    // Call the function to print array elements on page load
+    printArrayElements();
+  </script>
+</body>
+</html>

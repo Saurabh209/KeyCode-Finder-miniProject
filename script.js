@@ -120,32 +120,45 @@ function onpress(e){
         
       </div>
     </div>
-     <div class="data history">
-        <div class="title">
-          <p>History</p>
-        </div>
-        <div class="variable">
-            <ul class="history-data">
-            </ul>
-        </div>
-      </div>
+   
    
   </div>  
 `;
 
-const historyData = document.querySelector(".history-data");
+const lowerContainer = document.querySelector('.lowerContainer')
+
+const dataHistory = document.createElement('div');
+dataHistory.classList.add('history');
+dataHistory.classList.add('data');
+
+const title = document.createElement("div");
+title.classList.add('title');
+const historyTitle = document.createElement('p');
+historyTitle.innerText = "History";
+title.append(historyTitle);
+dataHistory.append(title);
+
+const variable = document.createElement('div');
+variable.classList.add('variable');
+const ul = document.createElement('ul');
+ul.classList.add('history-data');
+variable.append(ul);
+dataHistory.append(variable);
+
+lowerContainer.append(dataHistory);
+
+
+
+
+
 historyArray.forEach(i=>{
   console.log(i);
-  const listItem = document.createElement("ul");
-  const element = document.createElement('div');
-  element.innerHTML = `${historyArray[i]}`;
-  listItem.append(element);
-  historyData.append(listItem);
+  var item = document.createElement('div')
 });
 
 
 historyArray.push(e.key);
-console.log(historyArray);
+
 
 
 
