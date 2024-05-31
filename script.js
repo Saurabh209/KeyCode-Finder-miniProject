@@ -133,6 +133,17 @@ function onpress(e){
   </div>  
 `;
 
+const historyData = document.querySelector(".history-data");
+historyArray.forEach(i=>{
+  console.log(i);
+  const listItem = document.createElement("ul");
+  const element = document.createElement('div');
+  element.innerHTML = `${historyArray[i]}`;
+  listItem.append(element);
+  historyData.append(listItem);
+});
+
+
 historyArray.push(e.key);
 console.log(historyArray);
 
