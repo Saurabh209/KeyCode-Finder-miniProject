@@ -151,11 +151,12 @@ h2 {
 }
 .variable {
   /* border: 1px solid black; */
-  height: 100px;
+  height: 163px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 30px;
+  overflow: hidden;
 }
 /* .variable-data {
 } */
@@ -221,8 +222,10 @@ h2 {
 }
 
 .item{
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
+  margin-right: 2px;
+  margin-bottom: 2px;
   border: 1px solid black;
 }
 
