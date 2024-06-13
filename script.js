@@ -160,7 +160,9 @@ historyArray.forEach(i=>{
   historydata.append(item);
 });
 
-
+if(historyArray.length==36){
+  historyArray.shift();
+}
 historyArray.push(e.key);
 
 
