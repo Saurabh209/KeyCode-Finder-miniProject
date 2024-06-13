@@ -160,10 +160,33 @@ historyArray.forEach(i=>{
   historydata.append(item);
 });
 
-if(historyArray.length==36){
+if(historyArray.length==48){
   historyArray.shift();
 }
-historyArray.push(e.key);
+
+if(e.which==27){
+  historyArray.push("esc");
+}else if(e.which==91){
+  historyArray.push("f1");
+}
+else if(e.which==255){
+  historyArray.push("f2");
+}
+else if(e.which==4){
+  historyArray.push("f1");
+}
+else if(e.which==91){
+  historyArray.push("f1");
+}
+else if(e.which==91){
+  historyArray.push("f1");
+}
+
+
+else{
+  historyArray.push(e.key);
+}
+
 
 
 
