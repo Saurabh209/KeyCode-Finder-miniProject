@@ -10,7 +10,6 @@ let data;
 //   dataHistory.append(historyArray);
 //   console.log("running");
        
-
 // }
 
 
@@ -149,7 +148,6 @@ lowerContainer.append(dataHistory);
 
 
 
-
 const historydata = document.querySelector('.history-data');
 
 historyArray.forEach(i=>{
@@ -159,21 +157,19 @@ historyArray.forEach(i=>{
   item.innerHTML=`${i}`;
   historydata.append(item);
 });
-
-if(historyArray.length==48){
+if(historyArray.length==84){
   historyArray.shift();
 }
-
 if(e.which==27){
   historyArray.push("esc");
-}else if(e.which==91){
-  historyArray.push("f1");
+}else if(e.which==45){
+  historyArray.push("INS");
 }
-else if(e.which==255){
-  historyArray.push("f2");
+else if(e.which==34){
+  historyArray.push("PgDown");
 }
-else if(e.which==4){
-  historyArray.push("f1");
+else if(e.which==8){
+  historyArray.push("bk Space");
 }
 else if(e.which==91){
   historyArray.push("f1");

@@ -222,7 +222,8 @@ h2 {
 }
 
 .item{
-  height: 37px;
+  font-size: 12px;
+  height: 19px;
   width: 50px;
   margin-right: 2px;
   margin-bottom: 2px;
