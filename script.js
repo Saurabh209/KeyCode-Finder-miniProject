@@ -124,7 +124,7 @@ function onpress(e){
   </div>  
 `;
 
-const lowerContainer = document.querySelector('.lowerContainer')
+const lowerContainer = document.querySelector('.lowerContainer');
 
 const dataHistory = document.createElement('div');
 dataHistory.classList.add('history');
