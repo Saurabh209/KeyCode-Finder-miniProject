@@ -157,19 +157,19 @@ historyArray.forEach(i=>{
   item.innerHTML=`${i}`;
   historydata.append(item);
 });
-if(historyArray.length==84){
+if(historyArray.length==70){
   historyArray.shift();
 }
 if(e.which==27){
   historyArray.push("esc");
 }else if(e.which==45){
-  historyArray.push("INS");
+  historyArray.push("insert");
 }
 else if(e.which==34){
   historyArray.push("PgDown");
 }
 else if(e.which==8){
-  historyArray.push("bk Space");
+  historyArray.push("backSpace");
 }
 else if(e.which==91){
   historyArray.push("f1");
