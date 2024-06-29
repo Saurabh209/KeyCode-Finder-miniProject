@@ -154,7 +154,7 @@ historyArray.forEach(i=>{
   console.log(i);
   var item = document.createElement('div');
   item.classList.add('item');
-  item.innerHTML=`${i}`;
+  item.innerHTML=`|&nbsp&nbsp${i}&nbsp&nbsp|`;
   historydata.append(item);
 });
 if(historyArray.length==70){
@@ -171,8 +171,8 @@ else if(e.which==34){
 else if(e.which==8){
   historyArray.push("backSpace");
 }
-else if(e.which==91){
-  historyArray.push("f1");
+else if(e.which==32){
+  historyArray.push("Space");
 }
 else if(e.which==91){
   historyArray.push("f1");

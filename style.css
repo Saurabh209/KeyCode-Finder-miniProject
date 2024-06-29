@@ -2,6 +2,12 @@
   margin: 0px;
   padding: 0px;
 }
+#divider{
+  border-left: 1px solid black;
+  height: 14px;  /* Adjust the height as needed */
+  width: 1px;
+  margin: 0 auto;
+}
 .animate-character {
   text-transform: uppercase;
   text-align: center;
